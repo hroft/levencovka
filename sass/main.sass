@@ -1,0 +1,76 @@
+@import "colors" 
+
+html 
+    font-size: 14px
+a 
+    text-decoration: none
+
+body 
+    // background-color: $body-bg
+    color: $dark
+    font-family: 'Roboto', sans-serif
+// 1 экран
+
+.top-nav
+    background-color: $panel-head-color
+.form_top-nav
+    width: 100px
+.nav_social_icon
+    color: $color-social
+    font-size: 1.6rem
+    margin: 10px 10px 
+    & span 
+        margin-right: 5px
+        display: inline-block
+    & i 
+        color: $color-social
+        border-color: $color-social
+        border: 2px solid
+        // display: block
+        border-radius: 50%
+        width: 40px
+        height: 40px
+        text-align: center
+        line-height: 1.5
+.top-nav-mail
+    // display: inline-block
+    text-transform: uppercase
+    text-align: right
+    &_label
+        color: #ffffff
+        margin-right: 10px
+        // font-size: 1.2rem
+.logo
+    background-color: #fff
+    &_informer
+        text-align: right
+.logo_informer_img
+    // width: 100px
+
+.navbar
+    &_menu
+        text-transform: uppercase
+        color: #000000
+        font-size: 1.2rem
+        font-weight: 700
+.link-hover-center 
+        color: #07aa19
+        line-height: 1
+        text-decoration: none
+        cursor: pointer
+        position: relative
+
+        & a:after
+            display: block
+            position: absolute
+            left: 0
+            bottom: -10px
+            width: 0
+            height: 2px
+            background-color: #980044
+            content: ""
+            transition: width 0.2s
+        & a:hover 
+            color: #980041
+        & a:hover:after
+            width: 100%
