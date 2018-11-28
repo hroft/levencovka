@@ -88,4 +88,20 @@ body {
   width: 100%;
 }
 
+.feature_items_img {
+  width: 250px;
+  padding: 0;
+  height: auto;
+}
+
+.block1 {
+  margin: 5px;
+}
+
+.block2_1 {
+  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 /*# sourceMappingURL=main.css.map */
